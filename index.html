@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio e currículo de Evelyn Louise, desenvolvedor front-end especializado em React, TypeScript e interfaces de alta performance.">
+  <title>Evelyn Louise — Estudante | Portfólio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-glow"></div>
+    <div class="container hero-content">
+      <div class="hero-copy">
+        <p class="eyebrow">Portfólio</p>
+        <h1>Evelyn<br><span class="gradient-text">Louise</span></h1>
+        <p class="hero-description">Estudando Engenharia de Software, e procurando estagio, jovem aprendiz ou treinee!</p>
+        <div class="hero-actions">
+          <a href="#contato" class="button button-primary">Falar comigo</a>
+          <a href="#experiencia" class="button button-outline">Ver experiência</a>
+          <a href="curriculo.pdf" download="curriculo.pdf" class="button button-outline-primary">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+            Baixar currículo
+          </a>
+        </div>
+      </div>
+      <div class="portrait-wrap">
+        <div class="portrait-glow"></div>
+        <img class="portrait" src="img/eu.png" alt="Retrato de Evelyn Louise" width="782" height="924">
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section" id="skills">
+      <div class="container">
+        <h2>Skills</h2>
+        <p class="hero-description">Conhecimentos Basicos! Em desenvolvimento.</p>
+        <div class="three-columns" id="skills-list"></div>
+      </div>
+    </section>
+
+    <section class="section" id="experiencia">
+      <div class="container">
+        <h2>Experiência</h2>
+        <div class="experience-list" id="experience-list"></div>
+      </div>
+    </section>
+
+    <section class="section" id="projetos">
+      <div class="container">
+        <h2>Projetos</h2>
+        <p class="section-intro">Seleção de trabalhos recentes, realizamos projetos a cada Periodo da faculdade, e aqui contem 2 projetos realizados que mais gostei!</p>
+        <div class="project-grid" id="projects-list"></div>
+      </div>
+    </section>
+
+    <section class="section extras-section">
+      <div class="container three-columns" id="extras-list"></div>
+    </section>
+  </main>
+
+  <footer class="section footer" id="contato">
+    <div class="container footer-content">
+      <h2>Vamos <span class="gradient-text">conversar</span></h2>
+      <a class="email" href="mailto:evelyn.slouise@gmail.com">evelyn.slouise@gmail.com</a>
+      <div class="socials">
+        <a href="https://www.linkedin.com/in/evelyndev10/" aria-label="LinkedIn">LinkedIn</a>
+        <a href="https://github.com/evelyndev10" aria-label="GitHub">GitHub</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
